@@ -16,12 +16,12 @@ describe Player do
     end
   end
 
-  describe '#attack' do
-    it 'damages the player' do
-      expect(kasia).to receive(:receive_damage)
-      matt.attack(kasia)
-    end
-  end
+  # describe '#attack' do
+  #   it 'damages the player' do
+  #     expect(kasia).to receive(:receive_damage)
+  #     matt.attack(kasia)
+  #   end
+  # end
 
   describe '#receive_damage' do
     it 'reduces the player hit points' do
